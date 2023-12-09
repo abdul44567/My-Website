@@ -182,7 +182,7 @@
   /**************** Contact Us Section Start ***********************/
   .contact-section {
     height: 2650px;
-    background-size: 4600px;
+    /* background-size: 4600px; */
   }
   .contact-boxs {
     display: flex;
@@ -211,11 +211,11 @@
   }
   .social-icon i {
     font-size: 30px;
-    color: white;
+    /* color: white; */
   }
-  .social-icon i:hover {
+  /* .social-icon i:hover {
     color: #167320;
-  }
+  } */
   footer {
     height: 70px;
     font-size: 14px;

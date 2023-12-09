@@ -389,7 +389,8 @@ body {
 /* ************************ Contact Us Section Create ************************* */
 .contact-section {
   height: 1210px;
-  background-image: url('img/bg\ pic3.jpg');
+  /* background-image: url('img/bg\ pic3.jpg'); */
+  background-color: #000000;
 }
 
 .contact-boxs {
