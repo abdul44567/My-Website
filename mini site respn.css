@@ -1,0 +1,250 @@
+@media only screen and (max-width: 900px) {
+  .nav-list {
+    width: 100vw;
+    height: 0px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 105px;
+    background-color: rgb(15, 15, 15);
+    transition: 0.5s;
+    overflow: hidden;
+  }
+  .nav-list.active {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    height: 220px;
+  }
+  .nav-list ul li {
+    display: block;
+    width: fit-content;
+    margin: 14px auto 0 auto;
+    text-align: center;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .nav-list.active ul li {
+    opacity: 1;
+  }
+  .nav-list ul li a {
+    margin-bottom: 12px;
+  }
+  .hamburger i {
+    display: block;
+  }
+
+  /**************** Section One Start ***********************/
+  .section-one {
+    flex-direction: column;
+    height: 550px;
+  }
+  .section-one .main-title {
+    font-size: 21px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .main-pic img {
+    width: 250px;
+  }
+
+  /**************** Service Section Start ***********************/
+  .service-section {
+    height: 1030px;
+    background-size: 1700px;
+  }
+  .service-section .title {
+    padding-top: 20px;
+  }
+  .service-section .title h3 {
+    font-size: 18px;
+  }
+  .services-boxs {
+    flex-direction: column;
+  }
+  .services-boxs .box1 {
+    width: fit-content;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 30px 5px 30px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .services-boxs .box1 h1 {
+    font-size: 40px;
+    margin-top: 5px;
+  }
+  .services-boxs .box1 p {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .service-btn button {
+    font-size: 14px;
+    padding: 10px 10px;
+    margin-top: 35px;
+  }
+  .vort-row hr {
+    width: 230px;
+    transform: rotate(0deg);
+    margin-top: 50px;
+  }
+  .services-boxs .box2 {
+    width: fit-content;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 42px;
+  }
+  .html-ser,
+  .css-ser,
+  .java-ser {
+    line-height: 1.8;
+  }
+  .services-boxs .box2 .number {
+    font-size: 50px;
+  }
+
+  /**************** Gallery Section Start ***********************/
+  .gallery-section {
+    height: 2500px;
+  }
+  .gallery-section .title {
+    padding-top: 0px;
+  }
+  .gallery-section .title h3 {
+    font-size: 18px;
+  }
+  .boxs-row1,
+  .boxs-row2 {
+    flex-direction: column;
+    margin-left: 0px;
+    margin-top: -30px;
+  }
+  .boxs-row2 {
+    margin-top: 0px;
+  }
+  .gallery-boxs .boxs-row1 .box1,
+  .gallery-boxs .boxs-row2 .box1 {
+    width: 330px;
+  }
+  .boxs-row1 img,
+  .boxs-row2 img {
+    width: 330px;
+  }
+  .gallery-btn button {
+    font-size: 14px;
+    padding: 10px 10px;
+    margin-top: 30px;
+  }
+
+  /**************** About Us Section Start ***********************/
+  .about-section {
+    height: 1200px;
+  }
+  .about-section .title {
+    padding-top: 40px;
+  }
+  .about-section .title h3 {
+    font-size: 18px;
+  }
+  .main-head h2 {
+    font-size: 20px;
+  }
+  .main-head p {
+    font-size: 13px;
+  }
+  .about-boxs {
+    flex-direction: column;
+  }
+  .about-boxs .box1 {
+    width: 330px;
+    margin-top: 60px;
+  }
+  .about-boxs .box1 img {
+    width: 316px;
+  }
+  .about-boxs .box2 {
+    text-align: center;
+  }
+  .intro-boxs p {
+    text-align: left;
+    margin-left: 20px;
+    padding-bottom: 15px;
+  }
+  .about-boxs .box2 p {
+    font-size: 12px;
+  }
+
+  /**************** Contact Us Section Start ***********************/
+  .contact-section {
+    height: 2650px;
+    background-size: 4600px;
+  }
+  .contact-boxs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .contact-section .title {
+    padding-top: 40px;
+  }
+  .contact-section .title h3 {
+    font-size: 18px;
+  }
+  .cont-detail-boxs {
+    flex-direction: column;
+  }
+  .form-box #name,
+  #email,
+  #message,
+  .form-btn {
+    width: 300px;
+  }
+  .links-box {
+    text-align: center;
+  }
+  .social-icon i {
+    font-size: 30px;
+    color: white;
+  }
+  .social-icon i:hover {
+    color: #167320;
+  }
+  footer {
+    height: 70px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .logo {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    margin-left: 15px;
+    font-size: 15px;
+  }
+  .hamburger i {
+    font-size: 23px;
+    top: 25px;
+    right: 15px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .logo {
+    font-size: 13px;
+  }
+  .hamburger i {
+    font-size: 23px;
+    top: 25px;
+    right: 15px;
+  }
+}
